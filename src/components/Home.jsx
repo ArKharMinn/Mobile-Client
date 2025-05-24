@@ -139,7 +139,7 @@ const Home = () => {
                 </div>
                 <div className="p-4">
                   <h3 className="font-medium text-gray-900 truncate">{post.name}</h3>
-                  <p className="mt-1 text-sm text-gray-500">Category</p>
+                  <p className="mt-1 text-sm text-gray-500">{post.category.name}</p>
                   <p className="mt-2 font-bold text-gray-900">${post.price || "N/A"}</p>
                 </div>
               </Link>
